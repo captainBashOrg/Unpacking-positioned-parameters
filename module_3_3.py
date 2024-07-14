@@ -24,7 +24,7 @@ print_params(  values_dict)  # a= {'a': 1, 'b': 2, 'c': 5}, b=строка, c=Tr
 print_params( *values_dict)  # a= a, b=b, c=c Ключи?! NB прокачать глубже
 print_params(**values_dict)  # логично. a= 1, b=2, c=5 Значения
 
-print_params(*values_list_2, 42) # аргументя встают на место а и б, с -- по дефолтному
+print_params(*values_list_2, 42) # аргументы встают на место а и б, с -- по дефолтному
 
 
 
